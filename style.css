@@ -19,6 +19,10 @@
   font-size: xx-large;
 }
 
+.nextQuestion{
+  text-align: right;
+}
+
 .navBox, .asideBox {
   flex: 0 0 12em;
 }
@@ -31,4 +35,19 @@ h1, footer {
   height: 200px;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+
+.card {
+    height: 199px;
+    width: 300px;
+    margin: 0 auto;
+}
+.card .front {
+    width: 300px;
+    height: auto;
+}
+.card .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
 }
