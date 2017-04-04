@@ -13,21 +13,30 @@ $(document).ready()
 var submitButton = $("#submitInput");
 var displayQuestion = $("#card");
 var nextButton = $("#nextButton");
+// var currentQuestion = questionBank[0]
+
+
+var currentIndex = -1;
 
 nextButton.on("click", function(){
-  console.log("I was clicked!")
-})
+  displayQuestion.html(questionBank[currentIndex + 1]);
+  currentIndex++;
+  if(currentIndex === 9) {
+    currentIndex = -1;
+  }
+});
 
 submitButton.on("click", function(){
-  console.log("I was clicked!")
-  var userInput = $("#answerInput").val()
-  console.log(userInput)
-  displayQuestion.html(questionBank[0])
-});
 
-questionBank.forEach(function(currentQuestion) {
-  console.log(currentQuestion)
+  var userInput = $("#answerInput").val()
+  if (userInput === answerBank[0]) {
+    displayQuestion.html(questionBank())
+  }
 });
+//
+// questionBank.forEach(function(currentQuestion) {
+//   console.log(currentQuestion)
+// });
 
 // //flipping card
 //   $("#card").flip({
