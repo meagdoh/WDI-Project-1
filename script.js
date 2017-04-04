@@ -16,6 +16,7 @@ $(document).ready()
 var submitButton = $("#submitInput");
 var displayQuestion = $("#card");
 var nextButton = $("#nextButton");
+var answerDisplay = $("#answerDisplay");
 // var currentQuestion = questionBank[0]
 
 
@@ -30,16 +31,15 @@ nextButton.on("click", function(){
 });
 
 submitButton.on("click", function(){
-
   var userInput = $("#answerInput").val()
-  if (userInput === answerBank[0]) {
-    displayQuestion.html(questionBank())
-  }
-});
-//
-// questionBank.forEach(function(currentQuestion) {
-//   console.log(currentQuestion)
-// });
+  if (userInput === questionAndAnswers.answerBank[currentIndex]) {
+    answerDisplay.html("Correct! Click 'Next'")
+    }
+  else {
+    answerDisplay.html("Try again.");
+    }
+  });
+
 
 // //flipping card
 //   $("#card").flip({
