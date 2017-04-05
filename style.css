@@ -60,6 +60,28 @@ footer {
   padding: 75px;
 }
 
+#questionCard, #answerCard {
+  font-size: 40px;
+}
+
 #answerCard {
   display: none;
+  background: grey;
+}
+
+#answerInput {
+  font-size: 20px;
+}
+
+#questionCard, #answerResponse {
+  padding: 30px;
+}
+
+
+input[type="button"]{
+  font-size: 20px;
+  width: 200px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: white;
 }
