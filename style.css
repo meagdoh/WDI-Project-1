@@ -51,3 +51,8 @@ h1, footer {
     color: #fff;
     text-align: center;
 }
+
+/* default answerCard to hidden
+/*#answerCard {
+  visibility: hidden;
+}*/
