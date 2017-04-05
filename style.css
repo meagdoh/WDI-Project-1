@@ -32,7 +32,7 @@
 }
 
 h1, footer {
-  height: 200px;
+  height: 100px;
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
@@ -52,7 +52,14 @@ h1, footer {
     text-align: center;
 }
 
-/* default answerCard to hidden
-/*#answerCard {
-  visibility: hidden;
-}*/
+.navBox, .asideBox{
+  text-align: center;
+}
+
+footer {
+  padding: 75px;
+}
+
+#answerCard {
+  display: none;
+}
