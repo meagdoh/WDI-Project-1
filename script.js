@@ -3,16 +3,16 @@ $(document).ready()
 
 // Variables
 var questionAndAnswers =[
-   {question: "question 1", answer: "answer 1"},
-   {question: "question 2", answer: "answer 2"},
-   {question: "question 3", answer: "answer 3"},
-   {question: "question 4", answer: "answer 4"},
-   {question: "question 5", answer: "answer 5"},
-   {question: "question 6", answer: "answer 6"},
-   {question: "question 7", answer: "answer 7"},
-   {question: "question 8", answer: "answer 8"},
-   {question: "question 9", answer: "answer 9"},
-   {question: "question 10", answer: "answer 10"},
+   {question: "ICT4D", answer: "Information & Communication Technology for Development"},
+   {question: "IoT", answer: "Internet of Things"},
+   {question: "M4D", answer: "Mobile for Development"},
+   {question: "HCD", answer: "Human-Centered Design"},
+   {question: "IVR", answer: "Interactive Voice Response"},
+   {question: "IATI", answer: "International Aid Transparency Initiative"},
+   {question: "Agile", answer: "A way of building software that is iterative and incremental"},
+   {question: "PAR", answer: "Participatory Action Research"},
+   {question: "GIS [mapping]", answer: "Geographic Information System"},
+   {question: "PV", answer: "Participatory Video"},
 ];
 var showAnswerButton = $("#showAnswerButton");
 var submitButton = $("#submitInput");
@@ -51,7 +51,7 @@ function setCurrentQuestion() {
     displayAnswer.toggle( "slow" );
   });
 
-// Checking user input against answers.
+// Check user input against answers.
 submitButton.on("click", checkUserInput);
 
 function checkUserInput(){
