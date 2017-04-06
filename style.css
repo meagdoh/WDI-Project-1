@@ -33,9 +33,10 @@ h1, footer {
   font-family: 'Lato', sans-serif;
 }
 
-h2, h3{
+h2 {
   text-align: center;
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 
 .navBox, .asideBox{
@@ -44,15 +45,22 @@ h2, h3{
 
 footer {
   padding: 50px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 18px;
 }
 
-#questionCard, #answerCard {
+#showAnswerButton {
+  margin: 10px;
+}
+
+#questionCard {
   font-size: 40px;
 }
 
 #answerCard {
   display: none;
   background: grey;
+  font-size: 25px;
 }
 
 #answerInput {
@@ -63,10 +71,19 @@ footer {
   padding: 30px;
 }
 
+#showAnswerButton, #submitInput{
+  background-color: grey;
+  color: black;
+}
+
+#nextButton{
+  background-color: black;
+  color: white;
+  height: 75px;
+}
+
 input[type="button"]{
   font-size: 20px;
   width: 200px;
   font-family: 'Open Sans', sans-serif;
-  background-color: black;
-  color: white;
 }
