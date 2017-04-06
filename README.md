@@ -2,11 +2,13 @@
 ## Digital Development Glossary: Flashcard Game
 
 **Introduction**
+
 Flashcards are an effective way to share and teach new information to students, professionals - basically anyone. Technology lexicon can be highly determined depending on where you are in the world. A group focused on bridging the gaps and best practices for international technology projects is a collective called ICTworks.
 
 ICTworks focuses on the use of information and communication technologies (ICT) and the implementation processes that can make them sustainable in rural and underserved communities across the developing world (ICT4D). Recently, ICTworks published a Digital Development Glossary on their blog with a list of 30 widely accepted definitions in the ICT in development space. Consumers of this glossary are primarily students, researchers, politicians, and technologists.
 
 **User Stories**
+
 _International Development (ID) Student_ - Anyone studying international development in 2017 will encounter ICT as a concept. From an academic perspective, students are motivated to learn best practices and shared terms to better understand what’s going on “in the field.”
 
 + Interests: ID theory
@@ -37,7 +39,6 @@ _Non-ID Technologist_ - There are many talented technologists who are never expo
 + Goals: To broaden understanding of technology terms
 + Motivations: Continuous improvement and understanding of industry concepts.
 
-
 **Release Notes**
 
 0.1 - Completed April 6, 2017
@@ -46,7 +47,7 @@ _Non-ID Technologist_ - There are many talented technologists who are never expo
 - A user can submit an answer.
 
 
-0.2 - In progress
+0.2 - _In progress_
 - A user can submit additional question.
 - A user can flip through questions until each has been answered correctly.
 - A user can share app on social media.
