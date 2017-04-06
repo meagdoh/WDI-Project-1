@@ -1,6 +1,7 @@
 # WDI-Project-1
 ## Digital Development Glossary: Flashcard Game
 URL: https://meagdoh.github.io/WDI-Project-1/
+using HTML/CSS and Javascript
 
 **Introduction**
 
