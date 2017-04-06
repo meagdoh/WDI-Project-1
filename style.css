@@ -1,89 +1,88 @@
-
 .layout {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .layoutBody {
-  display: flex;
-  flex: 1;
+    display: flex;
+    flex: 1;
 }
 
 .contentBox {
-  flex: 1;
-  border: 1px solid black;
-  text-align: center;
-  padding: 70px;
-  font-size: xx-large;
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    padding: 70px;
+    font-size: xx-large;
 }
 
 .navBox, .asideBox {
-  flex: 0 0 12em;
+    flex: 0 0 12em;
 }
 
 .navBox {
-  order: -1;
+    order: -1;
 }
 
 h1, footer {
-  height: 30px;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 h2 {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
 
-.navBox, .asideBox{
-  text-align: center;
+.navBox, .asideBox {
+    text-align: center;
 }
 
 footer {
-  padding: 50px;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 18px;
+    padding: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
 }
 
 #showAnswerButton {
-  margin: 10px;
+    margin: 10px;
 }
 
 #questionCard {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 #answerCard {
-  display: none;
-  background: grey;
-  font-size: 25px;
+    display: none;
+    background: grey;
+    font-size: 25px;
 }
 
 #answerInput {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 #questionCard, #answerResponse {
-  padding: 30px;
+    padding: 30px;
 }
 
-#showAnswerButton, #submitInput{
-  background-color: grey;
-  color: black;
+#showAnswerButton, #submitInput {
+    background-color: grey;
+    color: black;
 }
 
-#nextButton{
-  background-color: black;
-  color: white;
-  height: 75px;
+#nextButton {
+    background-color: black;
+    color: white;
+    height: 75px;
 }
 
-input[type="button"]{
-  font-size: 20px;
-  width: 200px;
-  font-family: 'Open Sans', sans-serif;
+input[type="button"] {
+    font-size: 20px;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
 }
