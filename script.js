@@ -46,14 +46,15 @@ function setCurrentQuestion() {
   }
 }
 
-
-// Show answer card. *Needs to default to hidden.
+// Show answer card.
  showAnswerButton.click(function() {
     displayAnswer.toggle( "slow" );
   });
 
-// Checking user input against answers. Store results in results array.
-submitButton.on("click", function(){
+// Checking user input against answers.
+submitButton.on("click", checkUserInput);
+
+function checkUserInput(){
   var userInput = $("#answerInput").val()
   if (userInput === questionAndAnswers[currentAnswerIndex].answer) {
     answerResponse.html("Correct! Click 'Next'");
@@ -61,34 +62,4 @@ submitButton.on("click", function(){
   else {
     answerResponse.html("Try again.");
     }
-  });
-
-//Check results for
-
-  //
-  // var trackScore = function(){
-  //   var correctAnswer = [currentQuestionIndex]
-  //   // If answerResponse = true, remove from questionAndAnswers.
-  //   // If answerResponse = false, do nothing.
-  //   // When array = 0, display 'Complete!'
-  // };
-
-// webPage.on('keypress', function (event) {
-//           if (event.keyCode == 39) {
-//               alert("Enter key pressed");
-//           }
-//           else {
-//               alert("Not Enter key pressed");
-//           }
-//       });
-
-
-//Card display
-  // Flip through flashcards using keystrokes
-      // nextButton.onkeydown = function(){
-      //   console.log("Keypress works!")
-      // };
-// After you click submitButton, clear #answerInput
-// After you click nextButton, clear #answerResponse
-
-// toggle jQuery.hide (on click Answer button)
+  };
